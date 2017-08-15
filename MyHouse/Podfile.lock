@@ -1,0 +1,36 @@
+PODS:
+  - Realm (2.6.2):
+    - Realm/Headers (= 2.6.2)
+  - Realm/Headers (2.6.2)
+  - RealmSwift (2.6.2):
+    - Realm (= 2.6.2)
+  - RxBlocking (3.4.1):
+    - RxSwift (~> 3.4)
+  - RxCocoa (3.4.1):
+    - RxSwift (~> 3.4)
+  - RxRealm (0.6.0):
+    - RealmSwift (~> 2.5)
+    - RxSwift (~> 3.2)
+  - RxSwift (3.4.1)
+  - RxTest (3.4.1):
+    - RxSwift (~> 3.4)
+
+DEPENDENCIES:
+  - RxBlocking (~> 3.0)
+  - RxCocoa (~> 3.0)
+  - RxRealm
+  - RxSwift (~> 3.0)
+  - RxTest (~> 3.0)
+
+SPEC CHECKSUMS:
+  Realm: 29222766425b9f831228f81b63f0e38a97a4d700
+  RealmSwift: d161a80f96cb91ae88391a7d5a9cf08024a7bc8e
+  RxBlocking: 1e8c41cfe7ca2fc0e19d0e616c553845c63cbbd3
+  RxCocoa: a8a5f1d061d0043e28f56976829f31ce63e8eb09
+  RxRealm: 323de579b50b5e0f4a3e087d5925021f976ffaf1
+  RxSwift: 656f8fbeca5bc372121a72d9ebdd3cd3bc0ffade
+  RxTest: a6fd6e4069face7c6488f96f6c42296b3e44db48
+
+PODFILE CHECKSUM: 11263c4b1295a8253ac470b79375bc7a89237200
+
+COCOAPODS: 1.1.1
