@@ -12,6 +12,7 @@
 		CD3986001F43168400B669F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3985FE1F43168400B669F6 /* Main.storyboard */; };
 		CD3986021F43168400B669F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3986011F43168400B669F6 /* Assets.xcassets */; };
 		CD3986051F43168400B669F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3986031F43168400B669F6 /* LaunchScreen.storyboard */; };
+		CD3986211F431F3400B669F6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3986201F431F3400B669F6 /* Default-568h@2x.png */; };
 		DB550D716600CA0E41E16DF9 /* Pods_MyHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1EB23D8A6EA9115CD25B7F /* Pods_MyHouse.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		CD3986061F43168400B669F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD39860B1F43168400B669F6 /* MyHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3986111F43168400B669F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3986201F431F3400B669F6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FA8DFA507E9A6D343D65327A /* Pods-MyHouseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHouseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyHouseTests/Pods-MyHouseTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 		CD3985EE1F43168400B669F6 = {
 			isa = PBXGroup;
 			children = (
+				CD3986201F431F3400B669F6 /* Default-568h@2x.png */,
 				CD3985F91F43168400B669F6 /* MyHouse */,
 				CD39860E1F43168400B669F6 /* MyHouseTests */,
 				CD3985F81F43168400B669F6 /* Products */,
@@ -94,6 +97,7 @@
 		CD3985F91F43168400B669F6 /* MyHouse */ = {
 			isa = PBXGroup;
 			children = (
+				CD3986061F43168400B669F6 /* Info.plist */,
 				CD39861F1F431CA400B669F6 /* Resources */,
 				CD39861D1F431C4B00B669F6 /* UI */,
 				CD39861C1F431C4000B669F6 /* Core Service */,
@@ -138,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				CD3986011F43168400B669F6 /* Assets.xcassets */,
-				CD3986061F43168400B669F6 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD3986051F43168400B669F6 /* LaunchScreen.storyboard in Resources */,
+				CD3986211F431F3400B669F6 /* Default-568h@2x.png in Resources */,
 				CD3986021F43168400B669F6 /* Assets.xcassets in Resources */,
 				CD3986001F43168400B669F6 /* Main.storyboard in Resources */,
 			);
@@ -443,12 +447,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -494,10 +499,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -506,14 +512,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 284BD86ACC2363C34E99E5FB /* Pods-MyHouse.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6T98W5TB24;
 				INFOPLIST_FILE = MyHouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = luudvan.MyHouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -521,14 +529,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02BE69E456A8110F113A28C7 /* Pods-MyHouse.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6T98W5TB24;
 				INFOPLIST_FILE = MyHouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = luudvan.MyHouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -543,7 +553,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = luudvan.MyHouseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHouse.app/MyHouse";
 			};
@@ -560,7 +570,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = luudvan.MyHouseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHouse.app/MyHouse";
 			};
