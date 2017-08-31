@@ -16,6 +16,7 @@ target ‘MyHouseTests’ do
 use_frameworks!
     pod 'RxBlocking', '~> 3.2’
     pod 'RxTest',     '~> 3.2’
+pod ‘RxRealm’
 end
 
 post_install do |installer|

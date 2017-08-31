@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7EBE0F0B378934E3D2DD30DE /* Pods_MyHouseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD30D5DE532ABB74FD322F0F /* Pods_MyHouseTests.framework */; };
+		CD074BC71F4B3613004ECB21 /* BillSubCategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD074BC61F4B3613004ECB21 /* BillSubCategoryItem.swift */; };
+		CD074BC91F4B383A004ECB21 /* RealmUsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD074BC81F4B383A004ECB21 /* RealmUsable.swift */; };
+		CD28A73E1F470AA600835DAA /* TodoServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD28A73D1F470AA600835DAA /* TodoServiceTest.swift */; };
 		CD3985FB1F43168400B669F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3985FA1F43168400B669F6 /* AppDelegate.swift */; };
 		CD3986001F43168400B669F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3985FE1F43168400B669F6 /* Main.storyboard */; };
 		CD3986021F43168400B669F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3986011F43168400B669F6 /* Assets.xcassets */; };
@@ -15,6 +18,12 @@
 		CD3986211F431F3400B669F6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3986201F431F3400B669F6 /* Default-568h@2x.png */; };
 		CD47B0E51F45ABAA00E9EE0D /* TodoServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD47B0E41F45ABAA00E9EE0D /* TodoServiceType.swift */; };
 		CD47B0E81F45AEF700E9EE0D /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD47B0E71F45AEF700E9EE0D /* TodoItem.swift */; };
+		CD47B0EA1F45B18C00E9EE0D /* TodoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD47B0E91F45B18C00E9EE0D /* TodoService.swift */; };
+		CD9CD1211F4B2B1500F04973 /* BillManagerServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9CD1201F4B2B1500F04973 /* BillManagerServiceTest.swift */; };
+		CD9CD1241F4B2BCF00F04973 /* BillManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9CD1231F4B2BCF00F04973 /* BillManagerType.swift */; };
+		CD9CD1261F4B2C0000F04973 /* BillItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9CD1251F4B2C0000F04973 /* BillItem.swift */; };
+		CD9CD1281F4B2F6300F04973 /* BillManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9CD1271F4B2F6300F04973 /* BillManagerService.swift */; };
+		CD9CD12A1F4B303700F04973 /* BillCategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9CD1291F4B303700F04973 /* BillCategoryItem.swift */; };
 		DB550D716600CA0E41E16DF9 /* Pods_MyHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1EB23D8A6EA9115CD25B7F /* Pods_MyHouse.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +43,9 @@
 		581026841C1A258A13AC7BE7 /* Pods-MyHouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHouseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyHouseTests/Pods-MyHouseTests.release.xcconfig"; sourceTree = "<group>"; };
 		7A1EB23D8A6EA9115CD25B7F /* Pods_MyHouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyHouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD30D5DE532ABB74FD322F0F /* Pods_MyHouseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyHouseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD074BC61F4B3613004ECB21 /* BillSubCategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillSubCategoryItem.swift; sourceTree = "<group>"; };
+		CD074BC81F4B383A004ECB21 /* RealmUsable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmUsable.swift; sourceTree = "<group>"; };
+		CD28A73D1F470AA600835DAA /* TodoServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoServiceTest.swift; sourceTree = "<group>"; };
 		CD3985F71F43168400B669F6 /* MyHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3985FA1F43168400B669F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD3985FF1F43168400B669F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +57,12 @@
 		CD3986201F431F3400B669F6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CD47B0E41F45ABAA00E9EE0D /* TodoServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoServiceType.swift; sourceTree = "<group>"; };
 		CD47B0E71F45AEF700E9EE0D /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		CD47B0E91F45B18C00E9EE0D /* TodoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoService.swift; sourceTree = "<group>"; };
+		CD9CD1201F4B2B1500F04973 /* BillManagerServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillManagerServiceTest.swift; sourceTree = "<group>"; };
+		CD9CD1231F4B2BCF00F04973 /* BillManagerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillManagerType.swift; sourceTree = "<group>"; };
+		CD9CD1251F4B2C0000F04973 /* BillItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillItem.swift; sourceTree = "<group>"; };
+		CD9CD1271F4B2F6300F04973 /* BillManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillManagerService.swift; sourceTree = "<group>"; };
+		CD9CD1291F4B303700F04973 /* BillCategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCategoryItem.swift; sourceTree = "<group>"; };
 		FA8DFA507E9A6D343D65327A /* Pods-MyHouseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHouseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyHouseTests/Pods-MyHouseTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +93,15 @@
 				AD30D5DE532ABB74FD322F0F /* Pods_MyHouseTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD28A73C1F470A9400835DAA /* Core Service */ = {
+			isa = PBXGroup;
+			children = (
+				CD28A73D1F470AA600835DAA /* TodoServiceTest.swift */,
+				CD9CD1201F4B2B1500F04973 /* BillManagerServiceTest.swift */,
+			);
+			path = "Core Service";
 			sourceTree = "<group>";
 		};
 		CD3985EE1F43168400B669F6 = {
@@ -113,6 +140,7 @@
 		CD39860E1F43168400B669F6 /* MyHouseTests */ = {
 			isa = PBXGroup;
 			children = (
+				CD28A73C1F470A9400835DAA /* Core Service */,
 				CD3986111F43168400B669F6 /* Info.plist */,
 			);
 			path = MyHouseTests;
@@ -121,6 +149,7 @@
 		CD39861C1F431C4000B669F6 /* Core Service */ = {
 			isa = PBXGroup;
 			children = (
+				CD9CD1221F4B2BC000F04973 /* Bill Manager */,
 				CD47B0E61F45AEEE00E9EE0D /* Todo */,
 				CD47B0E31F45AB8600E9EE0D /* Protocols */,
 			);
@@ -156,6 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				CD47B0E41F45ABAA00E9EE0D /* TodoServiceType.swift */,
+				CD9CD1231F4B2BCF00F04973 /* BillManagerType.swift */,
+				CD074BC81F4B383A004ECB21 /* RealmUsable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -164,8 +195,20 @@
 			isa = PBXGroup;
 			children = (
 				CD47B0E71F45AEF700E9EE0D /* TodoItem.swift */,
+				CD47B0E91F45B18C00E9EE0D /* TodoService.swift */,
 			);
 			path = Todo;
+			sourceTree = "<group>";
+		};
+		CD9CD1221F4B2BC000F04973 /* Bill Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CD9CD1251F4B2C0000F04973 /* BillItem.swift */,
+				CD9CD1271F4B2F6300F04973 /* BillManagerService.swift */,
+				CD9CD1291F4B303700F04973 /* BillCategoryItem.swift */,
+				CD074BC61F4B3613004ECB21 /* BillSubCategoryItem.swift */,
+			);
+			path = "Bill Manager";
 			sourceTree = "<group>";
 		};
 		D4F66A1BFF06072D5CBDA495 /* Pods */ = {
@@ -238,6 +281,7 @@
 					};
 					CD39860A1F43168400B669F6 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						TestTargetID = CD3985F61F43168400B669F6;
 					};
 				};
@@ -382,7 +426,14 @@
 			files = (
 				CD3985FB1F43168400B669F6 /* AppDelegate.swift in Sources */,
 				CD47B0E81F45AEF700E9EE0D /* TodoItem.swift in Sources */,
+				CD9CD12A1F4B303700F04973 /* BillCategoryItem.swift in Sources */,
+				CD9CD1281F4B2F6300F04973 /* BillManagerService.swift in Sources */,
 				CD47B0E51F45ABAA00E9EE0D /* TodoServiceType.swift in Sources */,
+				CD9CD1241F4B2BCF00F04973 /* BillManagerType.swift in Sources */,
+				CD074BC71F4B3613004ECB21 /* BillSubCategoryItem.swift in Sources */,
+				CD9CD1261F4B2C0000F04973 /* BillItem.swift in Sources */,
+				CD47B0EA1F45B18C00E9EE0D /* TodoService.swift in Sources */,
+				CD074BC91F4B383A004ECB21 /* RealmUsable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +441,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9CD1211F4B2B1500F04973 /* BillManagerServiceTest.swift in Sources */,
+				CD28A73E1F470AA600835DAA /* TodoServiceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,11 +625,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 6T98W5TB24;
 				INFOPLIST_FILE = MyHouseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = luudvan.MyHouseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHouse.app/MyHouse";
@@ -589,6 +644,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 6T98W5TB24;
 				INFOPLIST_FILE = MyHouseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
